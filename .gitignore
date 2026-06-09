@@ -1,0 +1,10 @@
+# Hugo
+/public/
+/resources/_gen/
+/hugo_stats.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -5,7 +5,6 @@ tags:
   - LLM
 categories:
   - AI知识
-share: "true"
 ---
 
 # 大语言模型原理：比你想象中更简单的“下一词预测”

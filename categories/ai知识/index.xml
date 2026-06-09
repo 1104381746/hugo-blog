@@ -1,0 +1,7 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>AI知识 - 分类 - Luhong's Blog</title><link>https://1104381746.github.io/hugo-blog/categories/ai%E7%9F%A5%E8%AF%86/</link><description>AI知识 - 分类 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://1104381746.github.io/hugo-blog/categories/ai%E7%9F%A5%E8%AF%86/" rel="self" type="application/rss+xml"/><item><title>大语言模型（LLM）的基本工作原理</title><link>https://1104381746.github.io/hugo-blog/01%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8Bllm%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://1104381746.github.io/hugo-blog/01%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8Bllm%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</guid><description><![CDATA[<h1 id="大语言模型原理比你想象中更简单的下一词预测">大语言模型原理：比你想象中更简单的“下一词预测”</h1>
+<h2 id="引言">引言</h2>
+<p>你有没有玩过手机输入法？你打一个“我”，它猜下一个字可能是“想”、“是”、“爱”。</p>
+<p>现在，想象一下：</p>
+<blockquote>
+<p>有一个输入法，它读完了互联网上几乎所有的书、论文、代码、聊天记录。
+然后它用这些海量知识来“猜”你希望它说的下一个字。</p>]]></description></item></channel></rss>

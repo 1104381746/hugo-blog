@@ -5,7 +5,7 @@ tags:
   - Claude Code
   - AI工具
 categories:
-  - AI工具
+  - Claude Code
 date: 2026-06-09
 ---
 

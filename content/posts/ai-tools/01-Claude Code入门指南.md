@@ -7,7 +7,7 @@ tags:
   - AI工具
   - Node.js
 categories:
-  - AI工具
+  - Claude Code
 
 date: 2026-06-09
 ---

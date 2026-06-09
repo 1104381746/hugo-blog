@@ -5,7 +5,7 @@ tags:
   - Codex Desktop
   - AI工具
 categories:
-  - AI工具
+  - Codex Desktop
 date: 2026-06-09
 ---
 

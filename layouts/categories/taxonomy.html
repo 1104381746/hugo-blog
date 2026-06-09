@@ -56,26 +56,18 @@
                                 {{- $childPage := $.Site.GetPage "taxonomy" (printf "%v/%v" $type $child) -}}
                                 {{- if $childPage -}}
                                 <div class="card-child-item">
-                                    <h4 class="card-child-title">
-                                        <a href="{{ $childPage.RelPermalink }}">
-                                            <i class="far fa-folder" aria-hidden="true"></i>&nbsp;{{ $child }}
-                                        </a>
-                                    </h4>
-                                    {{- $childTerm := index $.Site.Taxonomies.categories ($child | lower) -}}
-                                    {{- range first 5 $childTerm.Pages -}}
-                                        <article class="archive-item">
-                                            <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Title | emojify }}</a>
-                                        </article>
-                                    {{- end -}}
-                                    {{- if gt (len $childTerm.Pages) 5 -}}
-                                        <span class="more-post">
-                                            <a href="{{ $childPage.RelPermalink }}" class="more-single-link">{{ T "more" }} >></a>
-                                        </span>
-                                    {{- end -}}
+                                    <a href="{{ $childPage.RelPermalink }}" class="card-child-link">
+                                        <i class="far fa-folder" aria-hidden="true"></i>&nbsp;{{ $child }}
+                                    </a>
                                 </div>
                                 {{- end -}}
                             {{- end -}}
                         </div>
+                        {{- if $parentPage -}}
+                        <span class="more-post">
+                            <a href="{{ $parentPage.RelPermalink }}" class="more-single-link">{{ T "more" }} >></a>
+                        </span>
+                        {{- end -}}
                     </div>
                 </div>
             {{- end -}}

@@ -1,0 +1,66 @@
+{{- define "title" -}}
+    {{- .Title }} - {{ T .Data.Singular | default .Data.Singular }} - {{ .Site.Title -}}
+{{- end -}}
+
+{{- define "content" -}}
+    {{- $hierarchy := hugo.Data.categories -}}
+    {{- $children := index $hierarchy .Title -}}
+    <div class="page archive">
+        <h2 class="single-title animate__animated animate__pulse animate__faster">
+            <i class="far fa-folder-open" aria-hidden="true"></i>&nbsp;{{ .Title }}
+        </h2>
+
+        {{- if $children -}}
+        <div class="categories-card">
+            {{- range $child := $children -}}
+                {{- $childPage := $.Site.GetPage "taxonomy" (printf "categories/%v" $child) -}}
+                {{- if $childPage -}}
+                <div class="card-item">
+                    <div class="card-item-wrapper">
+                        <h3 class="card-item-title">
+                            <a href="{{ $childPage.RelPermalink }}">
+                                <i class="far fa-folder" aria-hidden="true"></i>&nbsp;{{ $child }}
+                            </a>
+                        </h3>
+                        {{- $childTerm := index $.Site.Taxonomies.categories ($child | lower) -}}
+                        {{- range first 5 $childTerm.Pages -}}
+                            <article class="archive-item">
+                                <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Title | emojify }}</a>
+                            </article>
+                        {{- end -}}
+                        {{- if gt (len $childTerm.Pages) 5 -}}
+                            <span class="more-post">
+                                <a href="{{ $childPage.RelPermalink }}" class="more-single-link">{{ T "more" }} >></a>
+                            </span>
+                        {{- end -}}
+                    </div>
+                </div>
+                {{- end -}}
+            {{- end -}}
+        </div>
+        {{- else -}}
+        {{- if .Pages -}}
+            {{- $pages := .Pages.GroupByDate "2006" -}}
+            {{- with .Site.Params.list.paginate | default .Site.Params.paginate -}}
+                {{- $pages = $.Paginate $pages . -}}
+            {{- else -}}
+                {{- $pages = .Paginate $pages -}}
+            {{- end -}}
+            {{- range $pages.PageGroups -}}
+                <h3 class="group-title">{{ .Key }}</h3>
+                {{- range .Pages -}}
+                    <article class="archive-item">
+                        <a href="{{ .RelPermalink }}" class="archive-item-link">
+                            {{- .Title | emojify -}}
+                        </a>
+                        <span class="archive-item-date">
+                            {{- $.Site.Params.list.dateFormat | default "01-02" | .Date.Format -}}
+                        </span>
+                    </article>
+                {{- end -}}
+            {{- end -}}
+            {{- partial "paginator.html" . -}}
+        {{- end -}}
+        {{- end -}}
+    </div>
+{{- end -}}

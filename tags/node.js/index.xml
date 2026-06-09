@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Node.js - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/node.js/</link><description>Node.js - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.luhg.cn/tags/node.js/" rel="self" type="application/rss+xml"/><item><title>Claude Code 入门指南：安装与环境配置</title><link>https://blog.luhg.cn/01-claude-code%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01-claude-code%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid><description><![CDATA[<h1 id="claude-code-入门指南安装与环境配置">Claude Code 入门指南：安装与环境配置</h1>
+<blockquote>
+<p>Claude Code 是 Anthropic 推出的终端编程助手，直接在终端运行，提供代码生成、文件编辑、命令执行等功能。本文是系列博客第一篇，带你快速上手 Claude Code。</p>]]></description></item><item><title>Node.js for windows安装指南</title><link>https://blog.luhg.cn/node.js-for-windows%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/node.js-for-windows%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/</guid><description><![CDATA[<h3 id="一下载-nodejs-安装包windows-msi">一、下载 Node.js 安装包（Windows MSI）</h3>
+<ol>
+<li>
+<p><strong>访问官网</strong><br>
+打开 <a href="https://nodejs.org/" target="_blank" rel="noopener noreffer ">Node.js 官网</a></p>
+<ul>
+<li>
+<p><strong>LTS 版本</strong> ：稳定版（推荐生产环境）</p>
+</li>
+<li>
+<p><strong>Current 版本</strong> ：最新版（含实验特性）</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>选择 Windows 安装包</strong></p>]]></description></item></channel></rss>

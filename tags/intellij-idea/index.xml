@@ -1,0 +1,6 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>IntelliJ IDEA - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/intellij-idea/</link><description>IntelliJ IDEA - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.luhg.cn/tags/intellij-idea/" rel="self" type="application/rss+xml"/><item><title>IntelliJ IDEA激活教程</title><link>https://blog.luhg.cn/intellij-idea%E6%BF%80%E6%B4%BB%E6%95%99%E7%A8%8B/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/intellij-idea%E6%BF%80%E6%B4%BB%E6%95%99%E7%A8%8B/</guid><description><![CDATA[<h2 id="1获取补丁文件">1.获取补丁文件</h2>
+<p>点击以下链接获取补丁：<a href="_assets/jetbra.zip" rel="">jetbra.zip</a></p>
+<h2 id="2解压补丁文件">2.解压补丁文件</h2>
+<p>将 <code>/jetbra</code> 文件夹单独拷贝并存放在 <strong>路径无中文或空格</strong> 的目录中</p>
+<p></p>
+<p>打开 <code>/jetbra/scripts</code>，运行 <strong>install-all-users.vbs</strong> ，点击【<strong>确定</strong> 】，等待提示 <strong>Done</strong> 即完成激活。</p>]]></description></item></channel></rss>

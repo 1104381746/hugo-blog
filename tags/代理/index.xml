@@ -1,0 +1,5 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>代理 - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/%E4%BB%A3%E7%90%86/</link><description>代理 - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.luhg.cn/tags/%E4%BB%A3%E7%90%86/" rel="self" type="application/rss+xml"/><item><title>CC Switch 代理与高可用 —— 本地路由、故障转移、用量统计全攻略</title><link>https://blog.luhg.cn/04-%E4%BB%A3%E7%90%86%E4%B8%8E%E9%AB%98%E5%8F%AF%E7%94%A8/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/04-%E4%BB%A3%E7%90%86%E4%B8%8E%E9%AB%98%E5%8F%AF%E7%94%A8/</guid><description><![CDATA[<h1 id="cc-switch-代理与高可用--本地路由故障转移用量统计全攻略">CC Switch 代理与高可用 —— 本地路由、故障转移、用量统计全攻略</h1>
+<blockquote>
+<p>适用版本：CC Switch v3.16.0+ | 最后更新：2026-06-05</p>
+</blockquote>
+<p>CC Switch 的代理与高可用体系是它区别于普通配置管理工具的关键。通过本地代理服务，你可以实现请求监控、应用路由、自动故障转移，以及详细的 Token 用量追踪。</p>]]></description></item></channel></rss>

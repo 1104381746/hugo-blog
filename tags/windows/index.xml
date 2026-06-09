@@ -1,0 +1,21 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Windows - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/windows/</link><description>Windows - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.luhg.cn/tags/windows/" rel="self" type="application/rss+xml"/><item><title>Windows11专业版KMS命令激活</title><link>https://blog.luhg.cn/windows11%E4%B8%93%E4%B8%9A%E7%89%88kms%E5%91%BD%E4%BB%A4%E6%BF%80%E6%B4%BB/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/windows11%E4%B8%93%E4%B8%9A%E7%89%88kms%E5%91%BD%E4%BB%A4%E6%BF%80%E6%B4%BB/</guid><description><![CDATA[<p>Windows11专业版KMS激活密钥：</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-">
+        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
+        <span class="copy" title="复制到剪贴板"><i class="far fa-copy" aria-hidden="true"></i></span>
+    </div><pre tabindex="0"><code>    W269N-WFGWX-YVC9B-4J6C9-T83GX</code></pre></div>
+<p>推荐KMS激活服务器：</p>
+<p>kms.0t.net.cn</p>
+<p>打开<code>Windows终端(管理员)</code>，输入以下命令</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-">
+        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
+        <span class="copy" title="复制到剪贴板"><i class="far fa-copy" aria-hidden="true"></i></span>
+    </div><pre tabindex="0"><code>    slmgr -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+    
+    slmgr -skms kms.0t.net.cn
+    
+    slmgr -ato</code></pre></div>
+<p>其他对应激活密钥</p>]]></description></item></channel></rss>

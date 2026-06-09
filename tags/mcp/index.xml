@@ -1,0 +1,5 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>MCP - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/mcp/</link><description>MCP - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.luhg.cn/tags/mcp/" rel="self" type="application/rss+xml"/><item><title>Superpowers：给你的 AI 编程助手装上"方法论引擎"</title><link>https://blog.luhg.cn/superpowers-%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/superpowers-%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</guid><description><![CDATA[<h1 id="superpowers给你的-ai-编程助手装上方法论引擎">Superpowers：给你的 AI 编程助手装上&quot;方法论引擎&quot;</h1>
+<blockquote>
+<p>适用版本：Superpowers v5.1.0+ | 最后更新：2026-06-05 | 这是一个 218k stars 的开源项目</p>
+</blockquote>
+<p>如果你已经在用 Claude Code 或 Codex，你大概经历过这种场面：跟 AI 说&quot;帮我写个用户登录功能&quot;，它唰唰唰就生成了几百行代码——但仔细一看，没测试、没错误处理、没考虑边界情况。你又得花更多时间修复它留下的烂摊子。</p>]]></description></item></channel></rss>

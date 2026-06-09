@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>JVM - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/jvm/</link><description>JVM - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.luhg.cn/tags/jvm/" rel="self" type="application/rss+xml"/><item><title>JDK，JRE和JVM是什么？三者有什么关系？</title><link>https://blog.luhg.cn/01jdkjre%E5%92%8Cjvm%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%89%E8%80%85%E6%9C%89%E4%BB%80%E4%B9%88%E5%85%B3%E7%B3%BB/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01jdkjre%E5%92%8Cjvm%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%89%E8%80%85%E6%9C%89%E4%BB%80%E4%B9%88%E5%85%B3%E7%B3%BB/</guid><description><![CDATA[<ul>
+<li>
+<p><strong>JDK</strong> ：英文全称 Java Development Kit，是Java的开发工具包 JDK是提供给Java开发人员使用的，其中包含了<code>Java的开发工具</code>和<code>JRE</code>。其中的开发工具包括：编译工具（javac.exe）打包工具（jar.exe）等。通俗的说就是<strong>开发用的</strong> 。</p>]]></description></item><item><title>JVM体系，类加载过程</title><link>https://blog.luhg.cn/02jvm%E4%BD%93%E7%B3%BB%E7%B1%BB%E5%8A%A0%E8%BD%BD%E8%BF%87%E7%A8%8B/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/02jvm%E4%BD%93%E7%B3%BB%E7%B1%BB%E5%8A%A0%E8%BD%BD%E8%BF%87%E7%A8%8B/</guid><description><![CDATA[<p></p>
+<p>JVM由三部分组成：<strong>运行时数据区</strong> ，<strong>类装载子系统</strong> ，<strong>字节码执行引擎</strong></p>
+<p>运行时数据区：也就是jvm的内存模型，分为堆，栈，方法区，本地方法栈，程序计数器5个部分。</p>]]></description></item><item><title>双亲委派机制</title><link>https://blog.luhg.cn/03%E5%8F%8C%E4%BA%B2%E5%A7%94%E6%B4%BE%E6%9C%BA%E5%88%B6/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/03%E5%8F%8C%E4%BA%B2%E5%A7%94%E6%B4%BE%E6%9C%BA%E5%88%B6/</guid><description><![CDATA[<p>加载一个 Class 类的顺序也是有优先级的，类加载器从最底层开始往上的顺序是这样的</p>
+<ol>
+<li>
+<p>BootStrap ClassLoader：rt.jar</p>
+</li>
+<li>
+<p>Extension ClassLoader: 加载扩展的 jar 包</p>
+</li>
+<li>
+<p>App ClassLoader：指定的 classpath 下面的 jar 包</p>]]></description></item></channel></rss>

@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Markdown - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/markdown/</link><description>Markdown - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.luhg.cn/tags/markdown/" rel="self" type="application/rss+xml"/><item><title>Markdown 基础使用教程</title><link>https://blog.luhg.cn/markdown-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/markdown-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</guid><description><![CDATA[<h1 id="markdown-标题语法">Markdown 标题语法</h1>
+<p>要创建标题，在单词或短语前面添加井号 (#) ，几级标题就用几个#。</p>
+<h1 id="markdown-强调语法">Markdown 强调语法</h1>
+<h2 id="粗体bold">粗体（Bold）</h2>
+<p>要加粗文本，在单词或短语的前后各添加两个星号（**）</p>
+<p><strong>A</strong></p>
+<h2 id="斜体italic">斜体（Italic）</h2>
+<p>要用斜体显示文本，在单词或短语前后添加一个星号（*）</p>]]></description></item></channel></rss>

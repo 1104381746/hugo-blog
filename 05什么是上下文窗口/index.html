@@ -69,4 +69,42 @@ F --> G["生成下一个 Token"]
 G --> H["新 Token 加入窗口末尾"]
 H --> B</div><hr><h2 id=9-实用建议如何用好模型的窗口>9. 实用建议：如何用好模型的窗口？</h2><h3 id=对普通用户>对普通用户</h3><ul><li>长文档：尽量放在<strong>对话最开始</strong>，而不是聊到一半再塞进去</li><li>重要信息：在提问时<strong>重复一遍</strong>（比如“按照我开头给你的那个 PDF……”）</li><li>分治法：把超长文档拆成多段，分别问</li></ul><h3 id=对开发者>对开发者</h3><ul><li>分段 + 滑动：用 LangChain 的 <code>MapReduce</code> / <code>Refine</code> 模式</li><li>优先用 RAG 而不是塞满整个窗口</li><li>监控 Token 使用量（<code>tiktoken</code> 库可以帮你数）</li></ul><hr><h2 id=写在最后>写在最后</h2><p>上下文窗口本质上是<strong>效率与能力之间的权衡</strong>：</p><blockquote><p>更大的窗口 = 更强的长文本理解能力 + 更高的计算成本 + 更慢的速度</p></blockquote><p>也许不久的将来，“窗口”这个概念会消失——
 那时候的模型，可能真的能<strong>记住和你聊过的每一句话</strong>。</p></div><div class=post-footer id=post-footer><div class=post-info><div class=post-info-line><div class=post-info-mod><span>更新于 2026-06-09</span></div></div><div class=post-info-line><div class=post-info-md></div><div class=post-info-share><span><a href=javascript:void(0); title="分享到 X" data-sharer=x data-url=https://blog.luhg.cn/05%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3/ data-title=05什么是上下文窗口 data-hashtags=上下文窗口,AI><i class="fab fa-x-twitter" aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 Threads" data-sharer=threads data-url=https://blog.luhg.cn/05%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3/ data-title=05什么是上下文窗口><i class="fab fa-threads" aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 Facebook" data-sharer=facebook data-url=https://blog.luhg.cn/05%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3/ data-hashtag=上下文窗口><i class="fab fa-facebook-square" aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 Hacker News" data-sharer=hackernews data-url=https://blog.luhg.cn/05%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3/ data-title=05什么是上下文窗口><i class="fab fa-hacker-news" aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 Line" data-sharer=line data-url=https://blog.luhg.cn/05%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3/ data-title=05什么是上下文窗口><i data-svg-src=https://cdn.jsdelivr.net/npm/simple-icons@16.9.0/icons/line.svg aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 微博" data-sharer=weibo data-url=https://blog.luhg.cn/05%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3/ data-title=05什么是上下文窗口><i class="fab fa-weibo" aria-hidden=true></i></a><a href=javascript:void(0); title="分享到 Diaspora" data-sharer=diaspora data-url=https://blog.luhg.cn/05%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3/ data-title=05什么是上下文窗口 data-description><i class="fab fa-diaspora" aria-hidden=true></i></a><a href="https://t.me/share/url?url=https%3a%2f%2fblog.luhg.cn%2f05%25E4%25BB%2580%25E4%25B9%2588%25E6%2598%25AF%25E4%25B8%258A%25E4%25B8%258B%25E6%2596%2587%25E7%25AA%2597%25E5%258F%25A3%2f&amp;text=05%e4%bb%80%e4%b9%88%e6%98%af%e4%b8%8a%e4%b8%8b%e6%96%87%e7%aa%97%e5%8f%a3" target=_blank title="分享到 Telegram"><i class="fab fa-telegram" aria-hidden=true></i></a></span></div></div></div><div class=post-info-more><section class=post-tags><i class="fas fa-tags" aria-hidden=true></i>&nbsp;<a href=/tags/%E4%B8%8A%E4%B8%8B%E6%96%87%E7%AA%97%E5%8F%A3/>上下文窗口</a>,&nbsp;<a href=/tags/ai/>AI</a></section><section><span><a href=javascript:void(0); onclick=window.history.back()>返回</a></span>&nbsp;|&nbsp;<span><a href=/>主页</a></span></section></div><div class=post-nav><a href=/06prompt-engineering-%E7%9A%84%E5%B8%B8%E8%A7%81%E7%AD%96%E7%95%A5%E5%8F%8A%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF/ class=prev rel=prev title="06Prompt Engineering 的常见策略及适用场景"><i class="fas fa-angle-left" aria-hidden=true></i>06Prompt Engineering 的常见策略及适用场景</a>
-<a href=/05-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/ class=next rel=next title=05-常见问题>05-常见问题<i class="fas fa-angle-right" aria-hidden=true></i></a></div></div></article></div></main><footer class=footer><div class=footer-container><div class=footer-line>由 <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.163.0">Hugo</a> 强力驱动 | 主题 - <a href=https://github.com/dillonzq/LoveIt target=_blank rel="noopener noreffer" title="LoveIt 1.0.0"><i class="far fa-kiss-wink-heart" aria-hidden=true></i> LoveIt</a></div><div class=footer-line itemscope itemtype=http://schema.org/CreativeWork><i class="far fa-copyright" aria-hidden=true></i><span itemprop=copyrightYear>2026</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=/ target=_blank>Luhong</a></span></div></div></footer></div><div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title=回到顶部><i class="fas fa-arrow-up" aria-hidden=true></i></a></div><div id=fixed-buttons-hidden><a href=# id=view-comments class=fixed-button title=查看评论><i class="fas fa-comment" aria-hidden=true></i></a></div><script src=https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js></script><script src=https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js></script><script src=https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js></script><script src=https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js></script><script src=https://cdn.jsdelivr.net/npm/sharer.js@0.5.2/sharer.min.js></script><script>window.config={comment:{},search:{fuseOpts:{distance:100,findAllMatches:!1,ignoreLocation:!1,isCaseSensitive:!1,location:0,minMatchCharLength:2,threshold:.3},highlightTag:"em",maxResultLength:10,noResultsFound:"没有找到结果",snippetLength:30}}</script><script src=/js/theme.js></script></body></html>
+<a href=/05-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/ class=next rel=next title=05-常见问题>05-常见问题<i class="fas fa-angle-right" aria-hidden=true></i></a></div></div></article></div></main><footer class=footer><div class=footer-container><div class=footer-line>由 <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.163.0">Hugo</a> 强力驱动 | 主题 - <a href=https://github.com/dillonzq/LoveIt target=_blank rel="noopener noreffer" title="LoveIt 1.0.0"><i class="far fa-kiss-wink-heart" aria-hidden=true></i> LoveIt</a></div><div class=footer-line itemscope itemtype=http://schema.org/CreativeWork><i class="far fa-copyright" aria-hidden=true></i><span itemprop=copyrightYear>2026</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=/ target=_blank>Luhong</a></span></div></div></footer></div><div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title=回到顶部><i class="fas fa-arrow-up" aria-hidden=true></i></a></div><div id=fixed-buttons-hidden><a href=# id=view-comments class=fixed-button title=查看评论><i class="fas fa-comment" aria-hidden=true></i></a></div><script src=https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js></script><script src=https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js></script><script src=https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js></script><script src=https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js></script><script src=https://cdn.jsdelivr.net/npm/sharer.js@0.5.2/sharer.min.js></script><script src=https://cdn.jsdelivr.net/npm/mermaid@11.5.0/dist/mermaid.min.js></script><script>window.config={comment:{},data:{"id-1":`graph LR
+    A["更长的窗口"] --> B["更多计算量"]
+    A --> C["更多显存"]
+    B --> D["更慢的推理"]
+    C --> D
+    D --> E["更高的成本"]`,"id-2":`graph LR
+    subgraph "小窗口 (2K)"
+        A["第1章"] -.->|超出窗口| B["第100章"]
+        B --> C["模型看不到第1章"]
+    end
+    subgraph "大窗口 (200K)"
+        D["第1章"] -->|仍在窗口内| E["第100章"]
+        E --> F["模型还能看到第1章"]
+    end`,"id-3":`graph TD
+    A["用户: 我叫张三"] --> Window["上下文窗口"]
+    B["助手: 你好张三"] --> Window
+    C["用户: 我是程序员"] --> Window
+    D["用户: 我住在北京"] --> Window
+    E["助手: 北京最近天气..."] --> Window
+    F["用户: 你还记得我叫什么吗?"] --> Window
+  
+    Window --> G["模型看到: 完整的对话历史"]`,"id-4":`graph LR
+    A["Token 5000"] -->|只能看到| B["Token 3000-7000"]
+    C["Token 10000"] -->|只能看到| D["Token 8000-12000"]
+    B -.->|看不到| D`,"id-5":`graph LR
+    A["前 50 轮对话"] --> B["模型自动生成摘要"]
+    B --> C["摘要占 500 Token"]
+    C --> D["继续新对话"]`,"id-6":`graph LR
+    A[开头<br/>高准确率] --> B[中间<br/>低准确率] --> C[结尾<br/>高准确率]
+    style B fill:#ffcccc`,"id-7":`flowchart TD
+    A["用户输入"] --> B["当前对话/文本"]
+    B --> C["上下文窗口<br/>(长度上限 L)"]
+    C --> D{"序列长度 > L ?"}
+    D -- 是 --> E["超出部分被丢弃<br/>或移动到摘要中"]
+    D -- 否 --> F["模型看到全部内容"]
+    E --> F
+    F --> G["生成下一个 Token"]
+    G --> H["新 Token 加入窗口末尾"]
+    H --> B`},search:{fuseOpts:{distance:100,findAllMatches:!1,ignoreLocation:!1,isCaseSensitive:!1,location:0,minMatchCharLength:2,threshold:.3},highlightTag:"em",maxResultLength:10,noResultsFound:"没有找到结果",snippetLength:30}}</script><script src=/js/theme.js></script></body></html>

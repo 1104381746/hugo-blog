@@ -7,7 +7,7 @@ tags:
   - AI工具
 categories:
   - AI工具
-  - Superpowers
+  - MCP
 date: 2026-06-09
 ---
 

@@ -1,4 +1,4 @@
-baseURL = "https://1104381746.github.io"
+baseURL = "https://1104381746.github.io/hugo-blog/"
 defaultContentLanguage = "zh-cn"
 title = "Luhong's Blog"
 theme = "LoveIt"

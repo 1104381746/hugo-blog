@@ -1,5 +1,5 @@
 ---
-published: true
+status: published
 title: Claude Code 进阶：权限控制与配置
 tags:
   - Claude Code

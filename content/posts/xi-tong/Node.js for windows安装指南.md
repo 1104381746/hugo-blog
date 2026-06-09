@@ -1,5 +1,5 @@
 ---
-published: true
+status: published
 title: Node.js for windows安装指南
 tags:
   - Node.js

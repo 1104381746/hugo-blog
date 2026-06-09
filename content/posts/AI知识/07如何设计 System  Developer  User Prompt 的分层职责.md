@@ -1,5 +1,5 @@
 ---
-published: true
+status: published
 title: 如何设计 System / Developer / User Prompt 的分层职责
 tags:
   - Prompt设计

@@ -1,5 +1,5 @@
 ---
-published: true
+status: published
 title: Transformer 核心组件拆解
 tags:
   - Transformer

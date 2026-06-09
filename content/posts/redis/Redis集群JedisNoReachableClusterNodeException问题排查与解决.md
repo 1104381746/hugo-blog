@@ -1,5 +1,5 @@
 ---
-published: true
+status: published
 title: Redis集群JedisNoReachableClusterNodeException问题排查与解决
 tags:
   - Redis

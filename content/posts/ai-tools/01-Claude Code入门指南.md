@@ -1,5 +1,5 @@
 ---
-published: true
+status: published
 
 title: Claude Code 入门指南：安装与环境配置
 tags:

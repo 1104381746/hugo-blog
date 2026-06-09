@@ -1,5 +1,5 @@
 ---
-published: true
+status: published
 title: IntelliJ IDEA激活教程
 tags:
   - IntelliJ IDEA

@@ -1,5 +1,5 @@
 ---
-published: true
+status: published
 title: 1panel安装
 tags:
   - 1Panel

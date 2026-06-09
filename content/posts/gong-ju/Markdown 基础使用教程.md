@@ -1,5 +1,5 @@
 ---
-published: true
+status: published
 title: Markdown 基础使用教程
 tags:
   - Markdown

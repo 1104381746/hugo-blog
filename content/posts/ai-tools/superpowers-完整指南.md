@@ -1,5 +1,5 @@
 ---
-published: true
+status: published
 title: Superpowers：给你的 AI 编程助手装上"方法论引擎"
 tags:
   - Superpowers

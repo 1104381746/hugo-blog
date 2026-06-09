@@ -1,39 +1,26 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Luhong's Blog</title><link>https://blog.luhg.cn/</link><description>个人技术博客</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.luhg.cn/index.xml" rel="self" type="application/rss+xml"/><item><title>01-快速入门</title><link>https://blog.luhg.cn/01-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid><description><![CDATA[<h1 id="cc-switch-快速入门--五分钟搞定多供应商切换">CC Switch 快速入门 —— 五分钟搞定多供应商切换</h1>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Luhong's Blog</title><link>https://blog.luhg.cn/</link><description>个人技术博客</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.luhg.cn/index.xml" rel="self" type="application/rss+xml"/><item><title>01-Claude Code入门指南</title><link>https://blog.luhg.cn/01-claude-code%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01-claude-code%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid><description><![CDATA[<h1 id="claude-code-入门指南安装与环境配置">Claude Code 入门指南：安装与环境配置</h1>
 <blockquote>
-<p>适用版本：CC Switch v3.16.0+ | 最后更新：2026-06-05</p>
-</blockquote>
-<p>如果你在用 Claude Code、Codex、Gemini CLI 等 AI 编程工具，很可能遇到过这种场景：今天用官方 Anthropic，明天想试试 DeepSeek，后天又切回 GPT——每次都要手改配置文件，格式还各不相同。CC Switch 就是为了解决这个痛点而生的。</p>]]></description></item><item><title>02供应商管理</title><link>https://blog.luhg.cn/02-%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/02-%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86/</guid><description><![CDATA[<h1 id="cc-switch-供应商管理完全指南--从入门到精通">CC Switch 供应商管理完全指南 —— 从入门到精通</h1>
+<p>Claude Code 是 Anthropic 推出的终端编程助手，直接在终端运行，提供代码生成、文件编辑、命令执行等功能。本文是系列博客第一篇，带你快速上手 Claude Code。</p>]]></description></item><item><title>01-Codex CLI 入门指南</title><link>https://blog.luhg.cn/01-codex-cli-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01-codex-cli-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid><description><![CDATA[<h1 id="openai-codex-入门指南安装与环境配置">OpenAI Codex 入门指南：安装与环境配置</h1>
 <blockquote>
-<p>适用版本：CC Switch v3.16.0+ | 最后更新：2026-06-05</p>
-</blockquote>
-<p>供应商管理是 CC Switch 的核心功能。这篇博客带你摸透从添加、切换、编辑、排序到用量查询的每一个环节，包括 Claude Desktop 的特殊用法。</p>]]></description></item><item><title>1panel安装</title><link>https://blog.luhg.cn/1panel%E5%AE%89%E8%A3%85/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/1panel%E5%AE%89%E8%A3%85/</guid><description><![CDATA[<p>文档链接：https://1panel.cn/docs/installation/online_installation/</p>
-<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
-    <div class="code-header language-">
-        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
-        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
-        <span class="copy" title="复制到剪贴板"><i class="far fa-copy" aria-hidden="true"></i></span>
-    </div><pre tabindex="0"><code>    curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh &amp;&amp; sudo bash quick_start.sh</code></pre></div>
-<p>安装成功后，控制台会打印面板访问信息，可通过浏览器访问 1Panel：</p>]]></description></item><item><title>BPE、WordPiece、SentencePiece 详解</title><link>https://blog.luhg.cn/04bpewordpiecesentencepiece-%E8%AF%A6%E8%A7%A3/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/04bpewordpiecesentencepiece-%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="为什么需要分词bpewordpiecesentencepiece-详解">为什么需要分词？BPE、WordPiece、SentencePiece 详解</h1>
+<p>OpenAI Codex 是 OpenAI 推出的轻量级编程助手，直接在终端运行，支持代码补全、文件编辑、命令执行等功能。本文是系列博客第一篇，带你快速上手 Codex。</p>]]></description></item><item><title>01-Codex Desktop 入门指南</title><link>https://blog.luhg.cn/01-codex-desktop-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01-codex-desktop-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid><description><![CDATA[<h1 id="入门篇codex-desktop-app-安装与初次体验">入门篇：Codex Desktop App 安装与初次体验</h1>
 <blockquote>
-<p>模型不认识字母，只认识数字。但在把文字变成数字之前，还有一个容易被忽略却极其关键的步骤——<strong>分词</strong>。</p>
+<p>面向新手的 Codex Desktop App 系列第一篇。读完本文，你会知道桌面版和命令行版有什么区别、怎么装、装完后第一件事该做什么。</p>
 </blockquote>
 <hr>
-<h2 id="引言一个被咬了一口的苹果">引言：一个被咬了一口的苹果</h2>
-<p>想象一下：</p>
-<p>我递给你一个完整的苹果，你可以直接吃。
-但如果我递给你的是<strong>已经切成块的苹果</strong>，你只需要拿起一块放嘴里就行了——更省事。</p>]]></description></item><item><title>CC Switch 常见问题解答 —— 配置文件、FAQ、深度链接与环境变量</title><link>https://blog.luhg.cn/05-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/05-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</guid><description><![CDATA[<h1 id="cc-switch-常见问题解答--配置文件faq深度链接与环境变量">CC Switch 常见问题解答 —— 配置文件、FAQ、深度链接与环境变量</h1>
+<h2 id="1-这篇给谁看">1 这篇给谁看</h2>
+<p>你在以下情况，Desktop App 可能比 CLI 更适合你：</p>]]></description></item><item><title>01-快速入门</title><link>https://blog.luhg.cn/01-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid><description><![CDATA[<h1 id="cc-switch-快速入门--五分钟搞定多供应商切换">CC Switch 快速入门 —— 五分钟搞定多供应商切换</h1>
 <blockquote>
 <p>适用版本：CC Switch v3.16.0+ | 最后更新：2026-06-05</p>
 </blockquote>
-<p>这篇博客涵盖 CC Switch 的数据存储结构、常见问题的排查方法、深度链接协议的使用以及环境变量冲突的处理。</p>]]></description></item><item><title>CC Switch 代理与高可用 —— 本地路由、故障转移、用量统计全攻略</title><link>https://blog.luhg.cn/04-%E4%BB%A3%E7%90%86%E4%B8%8E%E9%AB%98%E5%8F%AF%E7%94%A8/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/04-%E4%BB%A3%E7%90%86%E4%B8%8E%E9%AB%98%E5%8F%AF%E7%94%A8/</guid><description><![CDATA[<h1 id="cc-switch-代理与高可用--本地路由故障转移用量统计全攻略">CC Switch 代理与高可用 —— 本地路由、故障转移、用量统计全攻略</h1>
+<p>如果你在用 Claude Code、Codex、Gemini CLI 等 AI 编程工具，很可能遇到过这种场景：今天用官方 Anthropic，明天想试试 DeepSeek，后天又切回 GPT——每次都要手改配置文件，格式还各不相同。CC Switch 就是为了解决这个痛点而生的。</p>]]></description></item><item><title>01JDK，JRE和JVM是什么？三者有什么关系？</title><link>https://blog.luhg.cn/01jdkjre%E5%92%8Cjvm%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%89%E8%80%85%E6%9C%89%E4%BB%80%E4%B9%88%E5%85%B3%E7%B3%BB/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01jdkjre%E5%92%8Cjvm%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%89%E8%80%85%E6%9C%89%E4%BB%80%E4%B9%88%E5%85%B3%E7%B3%BB/</guid><description><![CDATA[<ul>
+<li>
+<p><strong>JDK</strong> ：英文全称 Java Development Kit，是Java的开发工具包 JDK是提供给Java开发人员使用的，其中包含了<code>Java的开发工具</code>和<code>JRE</code>。其中的开发工具包括：编译工具（javac.exe）打包工具（jar.exe）等。通俗的说就是<strong>开发用的</strong> 。</p>]]></description></item><item><title>01大语言模型（LLM）的基本工作原理</title><link>https://blog.luhg.cn/01%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8Bllm%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8Bllm%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</guid><description><![CDATA[<h1 id="大语言模型原理比你想象中更简单的下一词预测">大语言模型原理：比你想象中更简单的“下一词预测”</h1>
+<h2 id="引言">引言</h2>
+<p>你有没有玩过手机输入法？你打一个“我”，它猜下一个字可能是“想”、“是”、“爱”。</p>
+<p>现在，想象一下：</p>
 <blockquote>
-<p>适用版本：CC Switch v3.16.0+ | 最后更新：2026-06-05</p>
-</blockquote>
-<p>CC Switch 的代理与高可用体系是它区别于普通配置管理工具的关键。通过本地代理服务，你可以实现请求监控、应用路由、自动故障转移，以及详细的 Token 用量追踪。</p>]]></description></item><item><title>CC Switch 扩展功能深度解析 —— MCP、Prompts、Skills 与更多</title><link>https://blog.luhg.cn/03-%E6%89%A9%E5%B1%95%E5%8A%9F%E8%83%BD/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/03-%E6%89%A9%E5%B1%95%E5%8A%9F%E8%83%BD/</guid><description><![CDATA[<h1 id="cc-switch-扩展功能深度解析--mcppromptsskills-与更多">CC Switch 扩展功能深度解析 —— MCP、Prompts、Skills 与更多</h1>
-<blockquote>
-<p>适用版本：CC Switch v3.16.0+ | 最后更新：2026-06-05</p>
-</blockquote>
-<p>如果说供应商管理是 CC Switch 的骨架，那扩展功能就是它的肌肉和神经。这篇博客逐一拆解 MCP 服务器管理、Prompts 提示词管理、Skills 技能管理、会话管理器和 OpenClaw 工作区文件。</p>]]></description></item><item><title>Claude Code 基础使用：交互模式与核心命令</title><link>https://blog.luhg.cn/02-claude-code-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/02-claude-code-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</guid><description><![CDATA[<h1 id="claude-code-基础使用交互模式与核心命令">Claude Code 基础使用：交互模式与核心命令</h1>
+<p>有一个输入法，它读完了互联网上几乎所有的书、论文、代码、聊天记录。
+然后它用这些海量知识来“猜”你希望它说的下一个字。</p>]]></description></item><item><title>02-Claude Code 基础使用</title><link>https://blog.luhg.cn/02-claude-code-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/02-claude-code-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</guid><description><![CDATA[<h1 id="claude-code-基础使用交互模式与核心命令">Claude Code 基础使用：交互模式与核心命令</h1>
 <blockquote>
 <p>本文是 Claude Code 系列博客第 2 篇，介绍 Claude Code 的交互模式、核心命令及日常使用技巧。</p>
 </blockquote>
@@ -45,8 +32,22 @@
         <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
         <span class="copy" title="复制到剪贴板"><i class="far fa-copy" aria-hidden="true"></i></span>
     </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">claude</span></span></code></pre></div></div>
-<p>启动交互式终端界面，可以连续对话、逐步完成多个相关任务。</p>]]></description></item><item><title>Claude Code 进阶：权限控制与配置</title><link>https://blog.luhg.cn/03-claude-code-%E8%BF%9B%E9%98%B6/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/03-claude-code-%E8%BF%9B%E9%98%B6/</guid><description><![CDATA[<h1 id="claude-code-进阶权限控制与配置">Claude Code 进阶：权限控制与配置</h1>
+<p>启动交互式终端界面，可以连续对话、逐步完成多个相关任务。</p>]]></description></item><item><title>02-Codex CLI 基础使用</title><link>https://blog.luhg.cn/02-codex-cli-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/02-codex-cli-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</guid><description><![CDATA[<h1 id="codex-基础使用交互模式与核心命令">Codex 基础使用：交互模式与核心命令</h1>
 <blockquote>
-<p>本文是 Claude Code 系列博客的第 3 篇，深入讲解 Claude Code 的权限控制系统、运行模式配置以及个性化定制方法。掌握这些内容能帮你安全高效地使用 Claude Code。</p>]]></description></item><item><title>Claude Code 入门指南：安装与环境配置</title><link>https://blog.luhg.cn/01-claude-code%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01-claude-code%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid><description><![CDATA[<h1 id="claude-code-入门指南安装与环境配置">Claude Code 入门指南：安装与环境配置</h1>
+<p>本文是 Codex 系列博客第 2 篇，介绍 Codex CLI 的交互模式、核心命令及日常使用技巧。</p>
+</blockquote>
+<h2 id="启动方式">启动方式</h2>
+<h3 id="交互模式">交互模式</h3>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-bash">
+        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
+        <span class="copy" title="复制到剪贴板"><i class="far fa-copy" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">codex</span></span></code></pre></div></div>
+<p>启动交互式终端界面，可连续对话。</p>]]></description></item><item><title>02-Codex Desktop 基础使用</title><link>https://blog.luhg.cn/02-codex-desktop-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/02-codex-desktop-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</guid><description><![CDATA[<h1 id="基础篇codex-日常使用--对话代码生成与文件操作">基础篇：Codex 日常使用 — 对话、代码生成与文件操作</h1>
 <blockquote>
-<p>Claude Code 是 Anthropic 推出的终端编程助手，直接在终端运行，提供代码生成、文件编辑、命令执行等功能。本文是系列博客第一篇，带你快速上手 Claude Code。</p>]]></description></item></channel></rss>
+<p>系列第二篇。装好了 Desktop App，现在来学怎么真正用起来。读完这篇你会掌握：和 Codex 高效对话的方法、让它帮你写代码并把结果写进文件、以及用内置终端完成日常任务。</p>]]></description></item><item><title>02-供应商管理</title><link>https://blog.luhg.cn/02-%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/02-%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86/</guid><description><![CDATA[<h1 id="cc-switch-供应商管理完全指南--从入门到精通">CC Switch 供应商管理完全指南 —— 从入门到精通</h1>
+<blockquote>
+<p>适用版本：CC Switch v3.16.0+ | 最后更新：2026-06-05</p>
+</blockquote>
+<p>供应商管理是 CC Switch 的核心功能。这篇博客带你摸透从添加、切换、编辑、排序到用量查询的每一个环节，包括 Claude Desktop 的特殊用法。</p>]]></description></item></channel></rss>

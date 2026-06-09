@@ -5,6 +5,7 @@ tags:
   - Codex CLI
   - AI工具
 categories:
+  - AI工具
   - Codex CLI
 date: 2026-06-09
 ---

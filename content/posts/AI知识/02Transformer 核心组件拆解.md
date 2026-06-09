@@ -6,6 +6,7 @@ tags:
   - AI
 categories:
   - AI知识
+date: 2026-06-09
 ---
 # Transformer 核心组件拆解：LLM 的“引擎盖”下面有什么？
 

@@ -6,6 +6,7 @@ tags:
   - AI
 categories:
   - AI知识
+date: 2026-06-09
 ---
 
 # System / Developer / User Prompt：大模型对话的“三层权限”设计

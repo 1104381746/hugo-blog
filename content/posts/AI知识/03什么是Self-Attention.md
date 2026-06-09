@@ -6,6 +6,7 @@ tags:
   - Self-Attention
 categories:
   - AI知识
+date: 2026-06-09
 ---
 # Self-Attention：Transformer 里最聪明的那个“大脑区域”
 

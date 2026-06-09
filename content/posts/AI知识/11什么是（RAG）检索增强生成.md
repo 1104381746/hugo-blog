@@ -6,6 +6,7 @@ tags:
   - AI
 categories:
   - AI知识
+date: 2026-06-09
 ---
 
 # 什么是 RAG？一个例子让你彻底搞懂

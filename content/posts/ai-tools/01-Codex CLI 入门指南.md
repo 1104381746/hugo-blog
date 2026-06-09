@@ -6,6 +6,7 @@ tags:
   - AI工具
 categories:
   - AI工具
+date: 2026-06-09
 ---
 
 # OpenAI Codex 入门指南：安装与环境配置

@@ -6,6 +6,7 @@ tags:
   - AI工具
 categories:
   - AI工具
+date: 2026-06-09
 ---
 
 # 入门篇：Codex Desktop App 安装与初次体验

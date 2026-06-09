@@ -6,6 +6,7 @@ tags:
   - AI
 categories:
   - AI知识
+date: 2026-06-09
 ---
 
 # Prompt Engineering：如何让 LLM 说出你真正想要的话

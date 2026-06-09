@@ -6,6 +6,7 @@ tags:
   - AI工具
 categories:
   - AI工具
+date: 2026-06-09
 ---
 
 # 基础篇：Codex 日常使用 — 对话、代码生成与文件操作

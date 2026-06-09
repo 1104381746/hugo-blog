@@ -6,6 +6,7 @@ tags:
   - AI
 categories:
   - AI知识
+date: 2026-06-09
 ---
 
 # RAG 完全指南：从核心原理到高级技术

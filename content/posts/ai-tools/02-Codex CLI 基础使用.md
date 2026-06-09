@@ -6,6 +6,7 @@ tags:
   - AI工具
 categories:
   - AI工具
+date: 2026-06-09
 ---
 
 # Codex 基础使用：交互模式与核心命令

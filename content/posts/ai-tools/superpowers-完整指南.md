@@ -7,6 +7,7 @@ tags:
   - AI工具
 categories:
   - AI工具
+date: 2026-06-09
 ---
 
 # Superpowers：给你的 AI 编程助手装上"方法论引擎"

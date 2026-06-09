@@ -6,6 +6,7 @@ tags:
   - 分词
 categories:
   - AI知识
+date: 2026-06-09
 ---
 # 为什么需要分词？BPE、WordPiece、SentencePiece 详解
 

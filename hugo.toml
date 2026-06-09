@@ -54,7 +54,7 @@ copyright = ""
     rss = 10
     [params.home.profile]
       enable = true
-      avatarURL = "/hugo-blog/images/avatar.svg"
+      avatarURL = "/hugo-blog/images/neko.jpg"
       title = "Luhong"
       subtitle = "记录技术思考与学习笔记"
       typeit = true

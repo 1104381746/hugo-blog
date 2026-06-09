@@ -2,26 +2,16 @@
     {{- $type := .Type -}}
     {{- $hierarchy := hugo.Data.categories -}}
 
-    {{- /* Collect all child category names for filtering */ -}}
-    {{- $allChildren := slice -}}
-    {{- range $_, $children := $hierarchy -}}
-        {{- range $c := $children -}}
-            {{- $allChildren = $allChildren | append $c -}}
-        {{- end -}}
-    {{- end -}}
-
     <div class="page archive">
         <h2 class="single-title animate__animated animate__pulse animate__faster">
             {{- .Params.Title | default (T "categories") | default "categories" | dict "Some" | T "allSome" -}}
         </h2>
 
         <div class="categories-card">
-            {{- /* Render standalone categories (neither parent nor child) */ -}}
+            {{- /* Render standalone categories (not in hierarchy) */ -}}
             {{- range .Data.Terms.Alphabetical -}}
                 {{- $termName := .Term -}}
-                {{- $isParent := index $hierarchy $termName -}}
-                {{- $isChild := in $allChildren $termName -}}
-                {{- if and (not $isParent) (not $isChild) -}}
+                {{- if and (ne $termName "ai工具") (ne $termName "cc switch") (ne $termName "claude code") (ne $termName "codex cli") (ne $termName "codex desktop") (ne $termName "mcp") -}}
                     {{- with $.Site.GetPage "taxonomy" (printf "%v/%v" $type $termName) -}}
                     <div class="card-item">
                         <div class="card-item-wrapper">
@@ -71,7 +61,7 @@
                                             <i class="far fa-folder" aria-hidden="true"></i>&nbsp;{{ $child }}
                                         </a>
                                     </h4>
-                                    {{- $childTerm := index $.Site.Taxonomies.categories $child -}}
+                                    {{- $childTerm := index $.Site.Taxonomies.categories ($child | lower) -}}
                                     {{- range first 5 $childTerm.Pages -}}
                                         <article class="archive-item">
                                             <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Title | emojify }}</a>

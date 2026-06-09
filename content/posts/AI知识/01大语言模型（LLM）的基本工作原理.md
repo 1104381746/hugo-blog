@@ -6,6 +6,7 @@ tags:
 categories:
   - AI知识
 date: 2026-06-09
+published: true
 ---
 
 # 大语言模型原理：比你想象中更简单的“下一词预测”

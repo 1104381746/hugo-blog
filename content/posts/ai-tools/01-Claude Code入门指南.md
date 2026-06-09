@@ -1,7 +1,7 @@
 ---
 status: published
 
-title: Claude Code 入门指南：安装与环境配置
+title: 01-Claude Code入门指南
 tags:
   - Claude Code
   - AI工具

@@ -1,6 +1,6 @@
 ---
 status: published
-title: 入门篇：Codex Desktop App 安装与初次体验
+title: 01-Codex Desktop 入门指南
 tags:
   - Codex Desktop
   - AI工具

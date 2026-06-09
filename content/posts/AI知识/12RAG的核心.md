@@ -1,6 +1,6 @@
 ---
 status: published
-title: RAG的核心
+title: 12RAG的核心
 tags:
   - RAG
   - AI

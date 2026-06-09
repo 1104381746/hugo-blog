@@ -1,6 +1,6 @@
 ---
 status: published
-title: BPE、WordPiece、SentencePiece 详解
+title: 04BPE、WordPiece、SentencePiece 详解
 tags:
   - AI
   - 分词

@@ -1,6 +1,6 @@
 ---
 status: published
-title: Codex 实战：项目应用案例
+title: 04-Codex CLI  实战
 tags:
   - Codex CLI
   - AI工具

@@ -1,6 +1,6 @@
 ---
 status: published
-title: 基础篇：Codex 日常使用 — 对话、代码生成与文件操作
+title: 02-Codex Desktop 基础使用
 tags:
   - Codex Desktop
   - AI工具

@@ -1,6 +1,6 @@
 ---
 status: published
-title: Prompt Engineering 的常见策略及适用场景
+title: 06Prompt Engineering 的常见策略及适用场景
 tags:
   - 提示词工程
   - AI

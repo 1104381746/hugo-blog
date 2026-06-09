@@ -1,5 +1,5 @@
 ---
-title: 大语言模型（LLM）的基本工作原理
+title: 01大语言模型（LLM）的基本工作原理
 tags:
   - AI
   - LLM

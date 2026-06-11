@@ -11,7 +11,7 @@
             {{- /* Render standalone categories (not in hierarchy) */ -}}
             {{- range .Data.Terms.Alphabetical -}}
                 {{- $termName := .Term -}}
-                {{- if and (ne $termName "ai工具") (ne $termName "cc switch") (ne $termName "claude code") (ne $termName "codex cli") (ne $termName "codex desktop") (ne $termName "mcp") -}}
+                {{- if and (ne $termName "ai工具") (ne $termName "cc switch") (ne $termName "claude code") (ne $termName "codex cli") (ne $termName "codex desktop") (ne $termName "mcp") (ne $termName "github教程") (ne $termName "01入门篇") (ne $termName "02进阶篇") -}}
                     {{- with $.Site.GetPage "taxonomy" (printf "%v/%v" $type $termName) -}}
                     <div class="card-item">
                         <div class="card-item-wrapper">

@@ -26,6 +26,7 @@ jobs:
         run: |
           git clone --depth=1 https://x-access-token:${{ secrets.BLOGS_TOKEN }}@github.com/1104381746/blogs.git /tmp/blogs
           rsync -av --delete /tmp/blogs/blogs/ content/posts/
+          find content/posts -name "*.md" -exec sed -i 's/^published: true$/share: true/' {} +
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:

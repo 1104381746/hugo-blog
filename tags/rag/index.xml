@@ -1,11 +1,11 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>RAG - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/rag/</link><description>RAG - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.luhg.cn/tags/rag/" rel="self" type="application/rss+xml"/><item><title>RAG的核心</title><link>https://blog.luhg.cn/12rag%E7%9A%84%E6%A0%B8%E5%BF%83/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/12rag%E7%9A%84%E6%A0%B8%E5%BF%83/</guid><description><![CDATA[<h1 id="rag-完全指南从核心原理到高级技术">RAG 完全指南：从核心原理到高级技术</h1>
-<blockquote>
-<p>RAG 让大模型从“闭卷考试”变成“开卷考试”。
-这篇文章从零开始，讲透 RAG 的每一个核心环节，以及让效果更好的高级技术。</p>]]></description></item><item><title>什么是（RAG）检索增强生成</title><link>https://blog.luhg.cn/11%E4%BB%80%E4%B9%88%E6%98%AFrag%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA%E7%94%9F%E6%88%90/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/11%E4%BB%80%E4%B9%88%E6%98%AFrag%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA%E7%94%9F%E6%88%90/</guid><description><![CDATA[<h1 id="什么是-rag一个例子让你彻底搞懂">什么是 RAG？一个例子让你彻底搞懂</h1>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>RAG - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/rag/</link><description>RAG - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.luhg.cn/tags/rag/" rel="self" type="application/rss+xml"/><item><title>11-什么是（RAG）检索增强生成</title><link>https://blog.luhg.cn/11%E4%BB%80%E4%B9%88%E6%98%AFrag%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA%E7%94%9F%E6%88%90/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/11%E4%BB%80%E4%B9%88%E6%98%AFrag%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BA%E7%94%9F%E6%88%90/</guid><description><![CDATA[<h1 id="什么是-rag一个例子让你彻底搞懂">什么是 RAG？一个例子让你彻底搞懂</h1>
 <blockquote>
 <p>大模型很聪明，但它有两个“硬伤”：不知道新知识，还会编瞎话。
 RAG 就是专门解决这两个问题的。</p>
 </blockquote>
 <hr>
 <h2 id="引言先看一个例子">引言：先看一个例子</h2>
-<p>你问一个普通的大模型（比如 ChatGPT）：</p>]]></description></item></channel></rss>
+<p>你问一个普通的大模型（比如 ChatGPT）：</p>]]></description></item><item><title>12-RAG的核心</title><link>https://blog.luhg.cn/12rag%E7%9A%84%E6%A0%B8%E5%BF%83/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/12rag%E7%9A%84%E6%A0%B8%E5%BF%83/</guid><description><![CDATA[<h1 id="rag-完全指南从核心原理到高级技术">RAG 完全指南：从核心原理到高级技术</h1>
+<blockquote>
+<p>RAG 让大模型从“闭卷考试”变成“开卷考试”。
+这篇文章从零开始，讲透 RAG 的每一个核心环节，以及让效果更好的高级技术。</p>]]></description></item></channel></rss>

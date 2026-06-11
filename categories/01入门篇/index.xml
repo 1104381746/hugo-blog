@@ -24,36 +24,37 @@
 </blockquote>
 <hr>
 <h2 id="1-release-是什么">1. Release 是什么</h2>
-<p>Release（发布）是给代码仓库打版本标签的功能，通常在项目开发到一定阶段（如 v1.0.0）时使用。每个 Release 包含：</p>]]></description></item><item><title>11 · Insights 标签栏详解</title><link>https://blog.luhg.cn/11-insights%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/11-insights%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="11--insights-标签栏详解">11 · Insights 标签栏详解</h1>
-<blockquote>
-<p><strong>这篇的目标</strong>：学会使用 Insights 分析仓库数据——贡献图、流量统计、依赖图、社区活跃度。</p>
-</blockquote>
-<hr>
-<h2 id="1-insights-标签页布局">1. Insights 标签页布局</h2>
-<p>进入仓库的 <strong>More</strong> → <strong>Insights</strong>（或访问 /pulse），页面包含：</p>]]></description></item><item><title>12 · 仓库 Settings（上）</title><link>https://blog.luhg.cn/12-%E4%BB%93%E5%BA%93settings%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3%E4%B8%8A/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/12-%E4%BB%93%E5%BA%93settings%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3%E4%B8%8A/</guid><description><![CDATA[<h1 id="12--仓库-settings上">12 · 仓库 Settings（上）</h1>
-<blockquote>
-<p><strong>这篇的目标</strong>：熟练掌握仓库 Settings 页面的常用设置——基本设置、分支保护、协作管理。</p>
-</blockquote>
-<hr>
-<h2 id="1-进入仓库-settings">1. 进入仓库 Settings</h2>
-<p>进入任意仓库后，点击顶部导航栏的 <strong>Settings</strong> 标签（在 More 中）。页面左侧有完整的设置分类导航。</p>]]></description></item><item><title>13 · 仓库 Settings（下）</title><link>https://blog.luhg.cn/13-%E4%BB%93%E5%BA%93settings%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3%E4%B8%8B/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/13-%E4%BB%93%E5%BA%93settings%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3%E4%B8%8B/</guid><description><![CDATA[<h1 id="13--仓库-settings下">13 · 仓库 Settings（下）</h1>
-<blockquote>
-<p><strong>这篇的目标</strong>：深入仓库 Settings 的高级功能——Secrets、Webhooks、Pages、Actions、Security 等。</p>]]></description></item><item><title>05 · Code 标签栏详解</title><link>https://blog.luhg.cn/05-code%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/05-code%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="05--code-标签栏详解">05 · Code 标签栏详解</h1>
+<p>Release（发布）是给代码仓库打版本标签的功能，通常在项目开发到一定阶段（如 v1.0.0）时使用。每个 Release 包含：</p>]]></description></item><item><title>05 · Code 标签栏详解</title><link>https://blog.luhg.cn/05-code%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/05-code%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="05--code-标签栏详解">05 · Code 标签栏详解</h1>
 <blockquote>
 <p><strong>这篇的目标</strong>：全面掌握仓库 Code 标签页的每一个区域——浏览文件、查看提交历史、切换分支、下载代码。</p>
 </blockquote>
 <hr>
 <h2 id="1-code-标签页布局总览">1. Code 标签页布局总览</h2>
-<p>进入任意仓库，默认显示的就是 <strong>Code</strong> 标签页。以 facebook/react 为例，页面从上到下分为：</p>]]></description></item><item><title>06 · Issues 标签栏详解</title><link>https://blog.luhg.cn/06-issues%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/06-issues%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="06--issues-标签栏详解">06 · Issues 标签栏详解</h1>
+<p>进入任意仓库，默认显示的就是 <strong>Code</strong> 标签页。以 facebook/react 为例，页面从上到下分为：</p>]]></description></item><item><title>06 · Issues 标签栏详解</title><link>https://blog.luhg.cn/06-issues%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/06-issues%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="06--issues-标签栏详解">06 · Issues 标签栏详解</h1>
 <blockquote>
 <p><strong>这篇的目标</strong>：学会使用 Issues——提交 Bug 报告、提需求、参与讨论、管理项目任务。</p>
 </blockquote>
 <hr>
 <h2 id="1-issues-是什么">1. Issues 是什么</h2>
-<p>Issue（问题/议题）是 GitHub 上的讨论帖，用来报告 Bug、提功能需求、提问、任务跟踪等。</p>]]></description></item><item><title>07 · Pull Requests 标签栏详解</title><link>https://blog.luhg.cn/07-pull-requests%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/07-pull-requests%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="07--pull-requests-标签栏详解">07 · Pull Requests 标签栏详解</h1>
+<p>Issue（问题/议题）是 GitHub 上的讨论帖，用来报告 Bug、提功能需求、提问、任务跟踪等。</p>]]></description></item><item><title>07 · Pull Requests 标签栏详解</title><link>https://blog.luhg.cn/07-pull-requests%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/07-pull-requests%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="07--pull-requests-标签栏详解">07 · Pull Requests 标签栏详解</h1>
 <blockquote>
 <p><strong>这篇的目标</strong>：理解 Pull Request 的完整工作流——创建 PR、审查代码、合并分支、处理冲突。</p>
 </blockquote>
 <hr>
 <h2 id="1-pull-request-是什么">1. Pull Request 是什么</h2>
-<p>Pull Request（简称 PR）是 GitHub 协作的核心机制。当你修改了仓库的某个分支后，通过 PR 请求仓库维护者把你的修改合入主分支。</p>]]></description></item></channel></rss>
+<p>Pull Request（简称 PR）是 GitHub 协作的核心机制。当你修改了仓库的某个分支后，通过 PR 请求仓库维护者把你的修改合入主分支。</p>]]></description></item><item><title>08 · Actions 标签栏详解</title><link>https://blog.luhg.cn/08-actions%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/08-actions%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="08--actions-标签栏详解">08 · Actions 标签栏详解</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：理解 GitHub Actions 的基本概念——学会创建自动化工作流、查看构建状态、管理 Secrets。</p>
+</blockquote>
+<hr>
+<h2 id="1-actions-是什么">1. Actions 是什么</h2>
+<p>GitHub Actions 是 GitHub 内置的 CI/CD（持续集成/持续部署）工具。可在代码推送、PR 创建时触发自动执行任务。</p>]]></description></item><item><title>09 · Projects、Wiki、Discussions 详解</title><link>https://blog.luhg.cn/09-projects-wiki-discussions%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/09-projects-wiki-discussions%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="09--projectswikidiscussions-详解">09 · Projects、Wiki、Discussions 详解</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：学会用 Projects 做项目管理、用 Wiki 写文档、用 Discussions 组织社区讨论。</p>
+</blockquote>
+<hr>
+<h2 id="1-projects项目看板">1. Projects（项目看板）</h2>
+<h3 id="11-是什么">1.1 是什么</h3>
+<p>Projects 是 GitHub 内置的项目管理工具，采用**看板（Kanban）**的方式管理任务。它可以把仓库的 Issues 和 PR 组织成可视化的卡片面板。</p>]]></description></item><item><title>10 · Security 标签栏详解</title><link>https://blog.luhg.cn/10-security%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/10-security%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="10--security-标签栏详解">10 · Security 标签栏详解</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：了解 GitHub 的安全相关功能——Dependabot、Secret scanning、Code scanning、安全策略等。</p>]]></description></item></channel></rss>

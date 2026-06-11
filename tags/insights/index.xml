@@ -1,0 +1,7 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Insights - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/insights/</link><description>Insights - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://blog.luhg.cn/tags/insights/" rel="self" type="application/rss+xml"/><item><title>11 · Insights 标签栏详解</title><link>https://blog.luhg.cn/11-insights%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/11-insights%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="11--insights-标签栏详解">11 · Insights 标签栏详解</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：学会使用 Insights 分析仓库数据——贡献图、流量统计、依赖图、社区活跃度。</p>
+</blockquote>
+<hr>
+<h2 id="1-insights-标签页布局">1. Insights 标签页布局</h2>
+<p>进入仓库的 <strong>More</strong> → <strong>Insights</strong>（或访问 /pulse），页面包含：</p>]]></description></item></channel></rss>

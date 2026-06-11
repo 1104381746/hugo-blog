@@ -1,53 +1,59 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Luhong's Blog</title><link>https://blog.luhg.cn/</link><description>个人技术博客</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.luhg.cn/index.xml" rel="self" type="application/rss+xml"/><item><title>01-Claude Code入门指南</title><link>https://blog.luhg.cn/01-claude-code%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01-claude-code%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid><description><![CDATA[<h1 id="claude-code-入门指南安装与环境配置">Claude Code 入门指南：安装与环境配置</h1>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Luhong's Blog</title><link>https://blog.luhg.cn/</link><description>个人技术博客</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://blog.luhg.cn/index.xml" rel="self" type="application/rss+xml"/><item><title>01 · 初识GitHub</title><link>https://blog.luhg.cn/01-%E5%88%9D%E8%AF%86github/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01-%E5%88%9D%E8%AF%86github/</guid><description><![CDATA[<h1 id="01--初识github">01 · 初识GitHub</h1>
 <blockquote>
-<p>Claude Code 是 Anthropic 推出的终端编程助手，直接在终端运行，提供代码生成、文件编辑、命令执行等功能。本文是系列博客第一篇，带你快速上手 Claude Code。</p>]]></description></item><item><title>01-Codex CLI 入门指南</title><link>https://blog.luhg.cn/01-codex-cli-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01-codex-cli-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid><description><![CDATA[<h1 id="openai-codex-入门指南安装与环境配置">OpenAI Codex 入门指南：安装与环境配置</h1>
-<blockquote>
-<p>OpenAI Codex 是 OpenAI 推出的轻量级编程助手，直接在终端运行，支持代码补全、文件编辑、命令执行等功能。本文是系列博客第一篇，带你快速上手 Codex。</p>]]></description></item><item><title>01-Codex Desktop 入门指南</title><link>https://blog.luhg.cn/01-codex-desktop-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01-codex-desktop-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</guid><description><![CDATA[<h1 id="入门篇codex-desktop-app-安装与初次体验">入门篇：Codex Desktop App 安装与初次体验</h1>
-<blockquote>
-<p>面向新手的 Codex Desktop App 系列第一篇。读完本文，你会知道桌面版和命令行版有什么区别、怎么装、装完后第一件事该做什么。</p>
+<p><strong>这篇的目标</strong>：注册好账号、看懂界面每一个按钮是干什么的、知道 GitHub 上的核心名词是什么意思。</p>
 </blockquote>
 <hr>
-<h2 id="1-这篇给谁看">1 这篇给谁看</h2>
-<p>你在以下情况，Desktop App 可能比 CLI 更适合你：</p>]]></description></item><item><title>01-快速入门</title><link>https://blog.luhg.cn/01-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid><description><![CDATA[<h1 id="cc-switch-快速入门--五分钟搞定多供应商切换">CC Switch 快速入门 —— 五分钟搞定多供应商切换</h1>
+<h2 id="1-github-到底是什么">1. GitHub 到底是什么？</h2>
+<p>用一句话说清楚：</p>
+<blockquote>
+<p><strong>GitHub 是一个&quot;代码托管平台&quot;</strong>——你可以在上面存代码，别人可以看你的代码、下载你的代码、帮你改你的代码。</p>]]></description></item><item><title>01-快速入门</title><link>https://blog.luhg.cn/01-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid><description><![CDATA[<h1 id="cc-switch-快速入门--五分钟搞定多供应商切换">CC Switch 快速入门 —— 五分钟搞定多供应商切换</h1>
 <blockquote>
 <p>适用版本：CC Switch v3.16.0+ | 最后更新：2026-06-05</p>
 </blockquote>
-<p>如果你在用 Claude Code、Codex、Gemini CLI 等 AI 编程工具，很可能遇到过这种场景：今天用官方 Anthropic，明天想试试 DeepSeek，后天又切回 GPT——每次都要手改配置文件，格式还各不相同。CC Switch 就是为了解决这个痛点而生的。</p>]]></description></item><item><title>01JDK，JRE和JVM是什么？三者有什么关系？</title><link>https://blog.luhg.cn/01jdkjre%E5%92%8Cjvm%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%89%E8%80%85%E6%9C%89%E4%BB%80%E4%B9%88%E5%85%B3%E7%B3%BB/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01jdkjre%E5%92%8Cjvm%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%89%E8%80%85%E6%9C%89%E4%BB%80%E4%B9%88%E5%85%B3%E7%B3%BB/</guid><description><![CDATA[<ul>
-<li>
-<p><strong>JDK</strong> ：英文全称 Java Development Kit，是Java的开发工具包 JDK是提供给Java开发人员使用的，其中包含了<code>Java的开发工具</code>和<code>JRE</code>。其中的开发工具包括：编译工具（javac.exe）打包工具（jar.exe）等。通俗的说就是<strong>开发用的</strong> 。</p>]]></description></item><item><title>01大语言模型（LLM）的基本工作原理</title><link>https://blog.luhg.cn/01%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8Bllm%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8Bllm%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</guid><description><![CDATA[<h1 id="大语言模型原理比你想象中更简单的下一词预测">大语言模型原理：比你想象中更简单的“下一词预测”</h1>
-<h2 id="引言">引言</h2>
-<p>你有没有玩过手机输入法？你打一个“我”，它猜下一个字可能是“想”、“是”、“爱”。</p>
-<p>现在，想象一下：</p>
+<p>如果你在用 Claude Code、Codex、Gemini CLI 等 AI 编程工具，很可能遇到过这种场景：今天用官方 Anthropic，明天想试试 DeepSeek，后天又切回 GPT——每次都要手改配置文件，格式还各不相同。CC Switch 就是为了解决这个痛点而生的。</p>]]></description></item><item><title>02 · 探索与发现</title><link>https://blog.luhg.cn/02-%E6%8E%A2%E7%B4%A2%E4%B8%8E%E5%8F%91%E7%8E%B0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/02-%E6%8E%A2%E7%B4%A2%E4%B8%8E%E5%8F%91%E7%8E%B0/</guid><description><![CDATA[<h1 id="02--探索与发现">02 · 探索与发现</h1>
 <blockquote>
-<p>有一个输入法，它读完了互联网上几乎所有的书、论文、代码、聊天记录。
-然后它用这些海量知识来“猜”你希望它说的下一个字。</p>]]></description></item><item><title>02-Claude Code 基础使用</title><link>https://blog.luhg.cn/02-claude-code-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/02-claude-code-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</guid><description><![CDATA[<h1 id="claude-code-基础使用交互模式与核心命令">Claude Code 基础使用：交互模式与核心命令</h1>
-<blockquote>
-<p>本文是 Claude Code 系列博客第 2 篇，介绍 Claude Code 的交互模式、核心命令及日常使用技巧。</p>
+<p><strong>这篇的目标</strong>：学会在 GitHub 上发现好项目、用高级搜索精准定位代码、创建自己的第一个仓库、理解 GitHub 的核心名词和概念关系。</p>
 </blockquote>
-<h2 id="启动方式">启动方式</h2>
-<h3 id="交互模式">交互模式</h3>
-<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
-    <div class="code-header language-bash">
-        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
-        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
-        <span class="copy" title="复制到剪贴板"><i class="far fa-copy" aria-hidden="true"></i></span>
-    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">claude</span></span></code></pre></div></div>
-<p>启动交互式终端界面，可以连续对话、逐步完成多个相关任务。</p>]]></description></item><item><title>02-Codex CLI 基础使用</title><link>https://blog.luhg.cn/02-codex-cli-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/02-codex-cli-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</guid><description><![CDATA[<h1 id="codex-基础使用交互模式与核心命令">Codex 基础使用：交互模式与核心命令</h1>
-<blockquote>
-<p>本文是 Codex 系列博客第 2 篇，介绍 Codex CLI 的交互模式、核心命令及日常使用技巧。</p>
-</blockquote>
-<h2 id="启动方式">启动方式</h2>
-<h3 id="交互模式">交互模式</h3>
-<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
-    <div class="code-header language-bash">
-        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
-        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
-        <span class="copy" title="复制到剪贴板"><i class="far fa-copy" aria-hidden="true"></i></span>
-    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">codex</span></span></code></pre></div></div>
-<p>启动交互式终端界面，可连续对话。</p>]]></description></item><item><title>02-Codex Desktop 基础使用</title><link>https://blog.luhg.cn/02-codex-desktop-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/02-codex-desktop-%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/</guid><description><![CDATA[<h1 id="基础篇codex-日常使用--对话代码生成与文件操作">基础篇：Codex 日常使用 — 对话、代码生成与文件操作</h1>
-<blockquote>
-<p>系列第二篇。装好了 Desktop App，现在来学怎么真正用起来。读完这篇你会掌握：和 Codex 高效对话的方法、让它帮你写代码并把结果写进文件、以及用内置终端完成日常任务。</p>]]></description></item><item><title>02-供应商管理</title><link>https://blog.luhg.cn/02-%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/02-%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86/</guid><description><![CDATA[<h1 id="cc-switch-供应商管理完全指南--从入门到精通">CC Switch 供应商管理完全指南 —— 从入门到精通</h1>
+<hr>
+<h2 id="1-发现好项目的入口">1. 发现好项目的入口</h2>
+<p>登录 GitHub 后，点击左上角的 ☰ <strong>Open menu</strong> 打开左侧边栏，在<strong>发现</strong>区域可以看到：</p>]]></description></item><item><title>02供应商管理</title><link>https://blog.luhg.cn/02-%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/02-%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86/</guid><description><![CDATA[<h1 id="cc-switch-供应商管理完全指南--从入门到精通">CC Switch 供应商管理完全指南 —— 从入门到精通</h1>
 <blockquote>
 <p>适用版本：CC Switch v3.16.0+ | 最后更新：2026-06-05</p>
 </blockquote>
-<p>供应商管理是 CC Switch 的核心功能。这篇博客带你摸透从添加、切换、编辑、排序到用量查询的每一个环节，包括 Claude Desktop 的特殊用法。</p>]]></description></item></channel></rss>
+<p>供应商管理是 CC Switch 的核心功能。这篇博客带你摸透从添加、切换、编辑、排序到用量查询的每一个环节，包括 Claude Desktop 的特殊用法。</p>]]></description></item><item><title>03 · 仓库页面详解</title><link>https://blog.luhg.cn/03-%E4%BB%93%E5%BA%93%E9%A1%B5%E9%9D%A2%E8%AF%A6%E8%A7%A3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/03-%E4%BB%93%E5%BA%93%E9%A1%B5%E9%9D%A2%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="03--仓库页面详解">03 · 仓库页面详解</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：学会看仓库页面——认识所有标签栏、了解右侧面板信息、看懂文件浏览区、创建你的第一个仓库。</p>
+</blockquote>
+<hr>
+<h2 id="1-什么是仓库页面">1. 什么是仓库页面</h2>
+<p>当你进入一个仓库（如 github.com/facebook/react），看到的就是<strong>仓库页面</strong>。它是 GitHub 最核心的页面类型，所有代码、Issue、PR、讨论都在这里管理。掌握它的布局就等于掌握了 GitHub 80% 的操作。</p>]]></description></item><item><title>04 · 发布管理与个人主页</title><link>https://blog.luhg.cn/04-%E5%8F%91%E5%B8%83%E7%AE%A1%E7%90%86%E4%B8%8E%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/04-%E5%8F%91%E5%B8%83%E7%AE%A1%E7%90%86%E4%B8%8E%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/</guid><description><![CDATA[<h1 id="04--发布管理与个人主页">04 · 发布管理与个人主页</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：学会用 Release 发布版本、用 Profile-README 美化个人主页。</p>
+</blockquote>
+<hr>
+<h2 id="1-release-是什么">1. Release 是什么</h2>
+<p>Release（发布）是给代码仓库打版本标签的功能，通常在项目开发到一定阶段（如 v1.0.0）时使用。每个 Release 包含：</p>]]></description></item><item><title>05 · Code 标签栏详解</title><link>https://blog.luhg.cn/05-code%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/05-code%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="05--code-标签栏详解">05 · Code 标签栏详解</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：全面掌握仓库 Code 标签页的每一个区域——浏览文件、查看提交历史、切换分支、下载代码。</p>
+</blockquote>
+<hr>
+<h2 id="1-code-标签页布局总览">1. Code 标签页布局总览</h2>
+<p>进入任意仓库，默认显示的就是 <strong>Code</strong> 标签页。以 facebook/react 为例，页面从上到下分为：</p>]]></description></item><item><title>06 · Issues 标签栏详解</title><link>https://blog.luhg.cn/06-issues%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/06-issues%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="06--issues-标签栏详解">06 · Issues 标签栏详解</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：学会使用 Issues——提交 Bug 报告、提需求、参与讨论、管理项目任务。</p>
+</blockquote>
+<hr>
+<h2 id="1-issues-是什么">1. Issues 是什么</h2>
+<p>Issue（问题/议题）是 GitHub 上的讨论帖，用来报告 Bug、提功能需求、提问、任务跟踪等。</p>]]></description></item><item><title>07 · Pull Requests 标签栏详解</title><link>https://blog.luhg.cn/07-pull-requests%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/07-pull-requests%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="07--pull-requests-标签栏详解">07 · Pull Requests 标签栏详解</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：理解 Pull Request 的完整工作流——创建 PR、审查代码、合并分支、处理冲突。</p>
+</blockquote>
+<hr>
+<h2 id="1-pull-request-是什么">1. Pull Request 是什么</h2>
+<p>Pull Request（简称 PR）是 GitHub 协作的核心机制。当你修改了仓库的某个分支后，通过 PR 请求仓库维护者把你的修改合入主分支。</p>]]></description></item><item><title>08 · Actions 标签栏详解</title><link>https://blog.luhg.cn/08-actions%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/08-actions%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="08--actions-标签栏详解">08 · Actions 标签栏详解</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：理解 GitHub Actions 的基本概念——学会创建自动化工作流、查看构建状态、管理 Secrets。</p>
+</blockquote>
+<hr>
+<h2 id="1-actions-是什么">1. Actions 是什么</h2>
+<p>GitHub Actions 是 GitHub 内置的 CI/CD（持续集成/持续部署）工具。可在代码推送、PR 创建时触发自动执行任务。</p>]]></description></item></channel></rss>

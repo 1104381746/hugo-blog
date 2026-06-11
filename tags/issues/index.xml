@@ -1,0 +1,7 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Issues - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/issues/</link><description>Issues - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://blog.luhg.cn/tags/issues/" rel="self" type="application/rss+xml"/><item><title>06 · Issues 标签栏详解</title><link>https://blog.luhg.cn/06-issues%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/06-issues%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="06--issues-标签栏详解">06 · Issues 标签栏详解</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：学会使用 Issues——提交 Bug 报告、提需求、参与讨论、管理项目任务。</p>
+</blockquote>
+<hr>
+<h2 id="1-issues-是什么">1. Issues 是什么</h2>
+<p>Issue（问题/议题）是 GitHub 上的讨论帖，用来报告 Bug、提功能需求、提问、任务跟踪等。</p>]]></description></item></channel></rss>

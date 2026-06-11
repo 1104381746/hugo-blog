@@ -1,0 +1,9 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>入门 - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/%E5%85%A5%E9%97%A8/</link><description>入门 - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://blog.luhg.cn/tags/%E5%85%A5%E9%97%A8/" rel="self" type="application/rss+xml"/><item><title>01 · 初识GitHub</title><link>https://blog.luhg.cn/01-%E5%88%9D%E8%AF%86github/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/01-%E5%88%9D%E8%AF%86github/</guid><description><![CDATA[<h1 id="01--初识github">01 · 初识GitHub</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：注册好账号、看懂界面每一个按钮是干什么的、知道 GitHub 上的核心名词是什么意思。</p>
+</blockquote>
+<hr>
+<h2 id="1-github-到底是什么">1. GitHub 到底是什么？</h2>
+<p>用一句话说清楚：</p>
+<blockquote>
+<p><strong>GitHub 是一个&quot;代码托管平台&quot;</strong>——你可以在上面存代码，别人可以看你的代码、下载你的代码、帮你改你的代码。</p>]]></description></item></channel></rss>

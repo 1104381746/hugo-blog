@@ -1,0 +1,7 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Actions - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/actions/</link><description>Actions - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://blog.luhg.cn/tags/actions/" rel="self" type="application/rss+xml"/><item><title>08 · Actions 标签栏详解</title><link>https://blog.luhg.cn/08-actions%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/08-actions%E6%A0%87%E7%AD%BE%E6%A0%8F%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="08--actions-标签栏详解">08 · Actions 标签栏详解</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：理解 GitHub Actions 的基本概念——学会创建自动化工作流、查看构建状态、管理 Secrets。</p>
+</blockquote>
+<hr>
+<h2 id="1-actions-是什么">1. Actions 是什么</h2>
+<p>GitHub Actions 是 GitHub 内置的 CI/CD（持续集成/持续部署）工具。可在代码推送、PR 创建时触发自动执行任务。</p>]]></description></item></channel></rss>

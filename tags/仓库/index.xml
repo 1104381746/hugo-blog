@@ -1,0 +1,7 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>仓库 - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/%E4%BB%93%E5%BA%93/</link><description>仓库 - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://blog.luhg.cn/tags/%E4%BB%93%E5%BA%93/" rel="self" type="application/rss+xml"/><item><title>03 · 仓库页面详解</title><link>https://blog.luhg.cn/03-%E4%BB%93%E5%BA%93%E9%A1%B5%E9%9D%A2%E8%AF%A6%E8%A7%A3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/03-%E4%BB%93%E5%BA%93%E9%A1%B5%E9%9D%A2%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="03--仓库页面详解">03 · 仓库页面详解</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：学会看仓库页面——认识所有标签栏、了解右侧面板信息、看懂文件浏览区、创建你的第一个仓库。</p>
+</blockquote>
+<hr>
+<h2 id="1-什么是仓库页面">1. 什么是仓库页面</h2>
+<p>当你进入一个仓库（如 github.com/facebook/react），看到的就是<strong>仓库页面</strong>。它是 GitHub 最核心的页面类型，所有代码、Issue、PR、讨论都在这里管理。掌握它的布局就等于掌握了 GitHub 80% 的操作。</p>]]></description></item></channel></rss>

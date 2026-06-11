@@ -1,0 +1,13 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Git - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/git/</link><description>Git - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://blog.luhg.cn/tags/git/" rel="self" type="application/rss+xml"/><item><title>15 · Git 基础与 SSH 配置</title><link>https://blog.luhg.cn/15-git%E5%9F%BA%E7%A1%80%E4%B8%8Essh%E9%85%8D%E7%BD%AE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/15-git%E5%9F%BA%E7%A1%80%E4%B8%8Essh%E9%85%8D%E7%BD%AE/</guid><description><![CDATA[<h1 id="15--git-基础与-ssh-配置">15 · Git 基础与 SSH 配置</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：在本地安装并配置 Git、生成 SSH 密钥并绑定到 GitHub、学会基本的 Git 命令让本地和远程仓库同步。</p>
+</blockquote>
+<hr>
+<h2 id="1-git-简介">1. Git 简介</h2>
+<p>Git 是一个<strong>分布式版本控制系统</strong>，它管理的是你代码的&quot;版本历史&quot;。GitHub 是托管 Git 仓库的网站，而 Git 是运行在你本地的工具。</p>]]></description></item><item><title>16 · Git 进阶</title><link>https://blog.luhg.cn/16-git%E8%BF%9B%E9%98%B6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/16-git%E8%BF%9B%E9%98%B6/</guid><description><![CDATA[<h1 id="16--git-进阶">16 · Git 进阶</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：掌握 Git 的高级操作——Rebase、Stash、Cherry-pick、Tag、日志搜索、撤销修改。</p>
+</blockquote>
+<hr>
+<h2 id="1-rebase变基">1. Rebase（变基）</h2>
+<p>Rebase 会把当前分支的 commit 重新应用到目标分支上，形成一条线性历史。</p>]]></description></item></channel></rss>

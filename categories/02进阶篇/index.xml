@@ -1,0 +1,31 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>02进阶篇 - 分类 - Luhong's Blog</title><link>https://blog.luhg.cn/categories/02%E8%BF%9B%E9%98%B6%E7%AF%87/</link><description>02进阶篇 - 分类 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.luhg.cn/categories/02%E8%BF%9B%E9%98%B6%E7%AF%87/" rel="self" type="application/rss+xml"/><item><title>14 · 分支详解</title><link>https://blog.luhg.cn/14-%E5%88%86%E6%94%AF%E8%AF%A6%E8%A7%A3/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/14-%E5%88%86%E6%94%AF%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="14--分支详解">14 · 分支详解</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：深入理解 Git 分支的创建、合并、解决冲突、管理策略。</p>
+</blockquote>
+<hr>
+<h2 id="1-分支的概念回顾">1. 分支的概念回顾</h2>
+<p>分支是 Git 最强大的特性之一。它可以让你从主线拉出一条独立的开发线，互不干扰地开发新功能或修复 Bug。</p>]]></description></item><item><title>16 · Git 进阶</title><link>https://blog.luhg.cn/16-git%E8%BF%9B%E9%98%B6/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/16-git%E8%BF%9B%E9%98%B6/</guid><description><![CDATA[<h1 id="16--git-进阶">16 · Git 进阶</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：掌握 Git 的高级操作——Rebase、Stash、Cherry-pick、Tag、日志搜索、撤销修改。</p>
+</blockquote>
+<hr>
+<h2 id="1-rebase变基">1. Rebase（变基）</h2>
+<p>Rebase 会把当前分支的 commit 重新应用到目标分支上，形成一条线性历史。</p>]]></description></item><item><title>17 · GitHub CLI 入门</title><link>https://blog.luhg.cn/17-github-cli/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/17-github-cli/</guid><description><![CDATA[<h1 id="17--github-cli-入门">17 · GitHub CLI 入门</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：安装和使用 GitHub CLI（gh），在终端中完成 GitHub 操作，不用打开浏览器。</p>
+</blockquote>
+<hr>
+<h2 id="1-什么是-github-cli">1. 什么是 GitHub CLI</h2>
+<p>GitHub CLI（命令行工具 <code>gh</code>）让你在终端中直接操作 GitHub：创建 Issue、PR、查看仓库、管理 Release 等。</p>]]></description></item><item><title>18 · 完整实战：用 GitHub 管理博客</title><link>https://blog.luhg.cn/18-%E5%AE%8C%E6%95%B4%E5%AE%9E%E6%88%98%E7%94%A8github%E7%AE%A1%E7%90%86%E5%8D%9A%E5%AE%A2/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/18-%E5%AE%8C%E6%95%B4%E5%AE%9E%E6%88%98%E7%94%A8github%E7%AE%A1%E7%90%86%E5%8D%9A%E5%AE%A2/</guid><description><![CDATA[<h1 id="18--完整实战用-github-管理博客">18 · 完整实战：用 GitHub 管理博客</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：综合运用前面学到的所有知识——从零开始创建一个博客仓库，用 GitHub Actions 自动部署。</p>
+</blockquote>
+<hr>
+<h2 id="1-项目规划">1. 项目规划</h2>
+<p>我们将创建一个使用 Hugo/Hexo 的静态博客，托管在 GitHub Pages 上，用 Actions 自动构建和部署。</p>]]></description></item><item><title>15 · Git 基础与 SSH 配置</title><link>https://blog.luhg.cn/15-git%E5%9F%BA%E7%A1%80%E4%B8%8Essh%E9%85%8D%E7%BD%AE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/15-git%E5%9F%BA%E7%A1%80%E4%B8%8Essh%E9%85%8D%E7%BD%AE/</guid><description><![CDATA[<h1 id="15--git-基础与-ssh-配置">15 · Git 基础与 SSH 配置</h1>
+<blockquote>
+<p><strong>这篇的目标</strong>：在本地安装并配置 Git、生成 SSH 密钥并绑定到 GitHub、学会基本的 Git 命令让本地和远程仓库同步。</p>
+</blockquote>
+<hr>
+<h2 id="1-git-简介">1. Git 简介</h2>
+<p>Git 是一个<strong>分布式版本控制系统</strong>，它管理的是你代码的&quot;版本历史&quot;。GitHub 是托管 Git 仓库的网站，而 Git 是运行在你本地的工具。</p>]]></description></item></channel></rss>

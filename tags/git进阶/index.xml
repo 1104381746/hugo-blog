@@ -1,10 +1,10 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Git进阶 - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/git%E8%BF%9B%E9%98%B6/</link><description>Git进阶 - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://blog.luhg.cn/tags/git%E8%BF%9B%E9%98%B6/" rel="self" type="application/rss+xml"/><item><title>14 · 分支详解</title><link>https://blog.luhg.cn/14-%E5%88%86%E6%94%AF%E8%AF%A6%E8%A7%A3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/14-%E5%88%86%E6%94%AF%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="14--分支详解">14 · 分支详解</h1>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Git进阶 - 标签 - Luhong's Blog</title><link>https://blog.luhg.cn/tags/git%E8%BF%9B%E9%98%B6/</link><description>Git进阶 - 标签 - Luhong's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.luhg.cn/tags/git%E8%BF%9B%E9%98%B6/" rel="self" type="application/rss+xml"/><item><title>14 · 分支详解</title><link>https://blog.luhg.cn/14-%E5%88%86%E6%94%AF%E8%AF%A6%E8%A7%A3/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/14-%E5%88%86%E6%94%AF%E8%AF%A6%E8%A7%A3/</guid><description><![CDATA[<h1 id="14--分支详解">14 · 分支详解</h1>
 <blockquote>
 <p><strong>这篇的目标</strong>：深入理解 Git 分支的创建、合并、解决冲突、管理策略。</p>
 </blockquote>
 <hr>
 <h2 id="1-分支的概念回顾">1. 分支的概念回顾</h2>
-<p>分支是 Git 最强大的特性之一。它可以让你从主线拉出一条独立的开发线，互不干扰地开发新功能或修复 Bug。</p>]]></description></item><item><title>16 · Git 进阶</title><link>https://blog.luhg.cn/16-git%E8%BF%9B%E9%98%B6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/16-git%E8%BF%9B%E9%98%B6/</guid><description><![CDATA[<h1 id="16--git-进阶">16 · Git 进阶</h1>
+<p>分支是 Git 最强大的特性之一。它可以让你从主线拉出一条独立的开发线，互不干扰地开发新功能或修复 Bug。</p>]]></description></item><item><title>16 · Git 进阶</title><link>https://blog.luhg.cn/16-git%E8%BF%9B%E9%98%B6/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><author>Luhong</author><guid>https://blog.luhg.cn/16-git%E8%BF%9B%E9%98%B6/</guid><description><![CDATA[<h1 id="16--git-进阶">16 · Git 进阶</h1>
 <blockquote>
 <p><strong>这篇的目标</strong>：掌握 Git 的高级操作——Rebase、Stash、Cherry-pick、Tag、日志搜索、撤销修改。</p>
 </blockquote>

@@ -5,6 +5,8 @@ on:
     branches:
       - main
   workflow_dispatch:
+  repository_dispatch:
+    types: [blogs-updated]
 
 permissions:
   contents: write
@@ -20,6 +22,10 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Sync posts from blogs repo
+        run: |
+          git clone --depth=1 https://x-access-token:${{ secrets.BLOGS_TOKEN }}@github.com/1104381746/blogs.git /tmp/blogs
+          rsync -av --delete /tmp/blogs/blogs/ content/posts/
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
